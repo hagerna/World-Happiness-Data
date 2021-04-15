@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## World Happiness Data Visualization Set
+
+Here we compile World Happiness data.
 
 You can use the [editor on GitHub](https://github.com/hagerna/World-Happiness-Data/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
