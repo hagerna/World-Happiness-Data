@@ -5,5 +5,5 @@
 Team members:
 * [Jess Lilly](Jess_Lily)
 * [Nick Hager](Nick_Hager)
-* [Martin]
+* [Martin Alvarez-Kuglen](Martin_Alvarez-Kuglen)
 * [Linnea Nygren](Linnea_Nygren)
