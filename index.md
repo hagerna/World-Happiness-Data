@@ -7,3 +7,4 @@ Team members:
 * [Nick Hager](Nick_Hager)
 * [Martin]
 * [Linnea]
+* Albert
