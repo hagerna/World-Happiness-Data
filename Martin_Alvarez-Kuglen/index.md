@@ -1,3 +1,3 @@
-# World Happiness Data Visualization (Nick Hager)
+# World Happiness Data Visualization: (Martin Alvarez-Kuglen)
 
-Nick Hager's Pages.
+Martin Alvarez-Kuglen's Pages.
