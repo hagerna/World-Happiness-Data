@@ -52,18 +52,10 @@ The dystopia + residual column represents the remaining portion of a countriesâ€
 
 
 
-Years Reported:
-
-Our primary dataset includes data between the years 2005 and 2020. The 2021 dataset includes only 2021 data.
+_**Years Reported**_: Our primary dataset includes data between the years 2005 and 2020. The 2021 dataset includes only 2021 data.
 
 
-
-Countries Included:
-
-The 2018-2020 dataset includes 149 different countries.
+_**Countries Included**_: The 2018-2020 dataset includes 149 different countries.
 
 
-
-Missing Data:
-
-Both datasets have missing values for indicators and years where data is not available for a given country. Each of us will decide how to handle and analyze countries with missing values separately, in the context of our own investigations.
+_**Missing Data**_: Both datasets have missing values for indicators and years where data is not available for a given country. Each of us will decide how to handle and analyze countries with missing values separately, in the context of our own investigations.
