@@ -1,4 +1,4 @@
-# *World Happiness Data Visualization Set (Jess Lilly)*
+# World Happiness Data Visualization Set (Jess Lilly)
 
 The Global World Happiness Ranking Gallup publishes yearly is based on a single data indicator: life ladder scores determined through something known as the Cantril Index. The Cantril Index is used to rank countries in terms of happiness. Countries are ranked in based on survey responses to a single question: “Please imagine a ladder, with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?” Countries are ranked by mean life ladder score, with the highest score denoting the happiest country globally, and the lowest score denoting the least happy country globally. I am interested in investigating the validity of the Cantril Index in determining the happiness of a country.
 
@@ -15,4 +15,10 @@ Maybe I’m being cynical, but I’m very skeptical of Gallup World Happiness Ra
 I will be looking at the correlation between the Gallup World Happiness Ranking and suicide rates, depression rates, anxiety rates, and emotional wellbeing of the countries included in our dataset.
 
 I will further attempt to find data about different media styles, freedoms, and narratives globally. I am very interested to see if there is a correlation between the types of media narratives people consume about their country, and their perceived happiness.
+
+### Preliminary Analysis
+
+I started my investigation by determining whether there was a string relationship between the ladder score of countries, and their respective positive and negative affects. In the same survey that the Gallup data collectors collected Cantril ladder scores, the data collectors also collected positive and negative affect scores, based on responses to questions asked aboout the emotions repsondents experienced "yesterday". My preliminary visualization suggest ther eis a very weak association between the positive or negative affect experienced in a country, and the ladder score.
+
+{% include_relative Visualizations/Affect.html %}
 
