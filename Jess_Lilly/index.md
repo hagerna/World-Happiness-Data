@@ -1,3 +1,3 @@
-# World Happiness Data Visualization Set (Jess Lily)
+# *World Happiness Data Visualization Set (Jess Lilly)*
 
-Here is some info
+I am profoundly bad at computer programming.
