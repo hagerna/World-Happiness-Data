@@ -2,6 +2,9 @@
 
 I am interested in understanding the internal relationships between the data collected in these reports. When doing research for this project, I came across this dataset and found myself asking so many questions. What were the categories of data collected? How did these categories get chosen? What can they reveal about our society? Are there ways the data may be biased towards particular cultures?
 
+As it turns out, this particular dataset has categories that are meta-analysis of more specific questions. Some questions are directly taken from response data, but it appears the positive/negative affect columns are derived from data not accessible to the public. The dataset is relatively simple, with columns corresponding to country sorted by year. For each of these categories data is displayed for the following: "Life Ladder",	"Log GDP per capita",	"Social support",	"Healthy life expectancy at birth",	"Freedom to make life choices",	"Generosity",	"Perceptions of corruption",	"Positive affect" and	"Negative affect".
+
+
 We all have assumptions about what the data will show. I think most people assume high GDP will be linked to high happiness. But is this true? If so, why is it true? Are there more internal relationships we can pull out of the data to gain a better understanding?
 
 For my first visualization I have created a scatter plot of Life Ladder and Social Support (I call them 'General Life Enjoyment' and 'Social Support Evaluation' as those seem like more apt descriptions).
