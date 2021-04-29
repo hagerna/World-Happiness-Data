@@ -6,11 +6,9 @@ We all have assumptions about what the data will show. I think most people assum
 
 For my first visualization I have created a scatter plot of Life Ladder and Social Support (I call them 'General Life Enjoyment' and 'Social Support Evaluation' as those seem like more apt descriptions).
 
-[See my first visualization here](/Martin_Alvarez-Kuglen/Visualizations/SocSupport_v_LifeLadder.html)
+[See my visualizations here](/Martin_Alvarez-Kuglen/Visualizations/)
 
-![](/Martin_Alvarez-Kuglen/Visualizations/SocSupport_v_LifeLadder.html)
-
-{% include_relative /Martin_Alvarez-Kuglen/Visualizations/Countries_Per_Year.html %}
+{% include_relative Visualizations/Countries_Per_Year.html %}
 
 Initially I found this graph very interesting. It seems to reveal something that I think is not surprising -- that is, the higher the General Life Enjoyment the higher the Social Support Evaluation. Now, the immediate answer most would come to is 'well, social support must increase happiness!' While I find this a compelling explanation, I am curious if we can dig deeper. Could there be an underlying factor that may be illuminated by further analysis of the data?
 
