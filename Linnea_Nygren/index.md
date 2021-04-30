@@ -1,8 +1,7 @@
 # World Happiness Data Visualization (Linnea Nygren)
 
-I'm initially looking at the countries with the lowest and highest subjective happiness/well-being scores (called ladder score in the dataset) and looking at correlations
-between that ladder score and other variables. The ladder score is measured from 0 to 10, 10 being the best possible life you could imagine and 0 being the worst possible life you 
-could imagine. 
+I'm interested in how mental health plays a role in a country's happiness. I would have to guess that countries that have a higher ladder score would potentially have lower rates of depression/suicide, or at least more support for mental health. For this, I'll be looking at a secondary dataset alongside the world happiness dataset.
+This dataset from [Our World in Data](https://ourworldindata.org/mental-health) shows the prevalence of depression as recorded by the World Health Organization. 
 
 {% include_relative Visualizations/ladder_extremes.html %}
 
