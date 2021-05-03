@@ -4,3 +4,4 @@ Here you can see all the visualizations that focus on a particular factor of the
 
 ## [Life Ladder](#life-ladder)
 
+{% include_relative Visualizations/WHR-Life_Ladder.html %}
