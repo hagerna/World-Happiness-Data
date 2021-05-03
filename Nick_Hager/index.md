@@ -37,16 +37,4 @@ The major problem with combining sliders and dropdown menus in plotly graphs is 
 
 Despite our inability to fully compress all of the years and factors into a single visualization, that does not mean the visualizations we are left with are low quality or useless. The visualizations we have created will allow the viewer to look at all factors for a specific year or all the years for a specific factor, and we can further increase the quality of these graphs by taking into account the color and adding annotations. To help distinguish the factors I had each choropleth for a given factor be a distinct color so that the viewer would recieve immediate visual feedback when switching between visualizations. The colorscales I chose for each choropleth was based on my own personal favorites that took into account distinct coloration from the other choropleths and also clearly distinguished the countries without data. Additionally, we can provide which country scored the highest and lowest for any particular factor as a helpful annotation for the viewer in the upper-right hand corner of the visualization. Below is where you can find all 19 visualizations sorted by what their independent variable.
 
-| Sorted by Year | Sorted by Factor |
-| ----------------- | -------------------  |
-| [2011](data_by_year/index.md#2011) | [Life Ladder](data_by_factor/index.md#life-ladder) |
-| [2012](data_by_year/index.md#2012) | [Log GDP per capita](data_by_factor/index.md#log-gdp-per-capita) |
-| [2013](data_by_year/index.md#2013) | [Social Support](data_by_factor/index.md#social-support) |
-| [2014](data_by_year/index.md#2014) | [Healthy Life Expectancy at Birth](data_by_factor/index.md#healthy-life-expectancy-at-birth) |
-| [2015](data_by_year/index.md#2015) | [Freedom to Make Life Choices](data_by_factor/index.md#freedom-to-make-life-choices) |
-| [2016](data_by_year/index.md#2016) | [Generosity](data_by_factor/index.md#generosity) |
-| [2017](data_by_year/index.md#2017) | [Perceptions of Corruption](data_by_factor/index.md#perceptions-of-corruption) |
-| [2018](data_by_year/index.md#2018) | [Positive Affect](data_by_factor/index.md#positive-affect) |
-| [2019](data_by_year/index.md#2019) | [Negative Affect](data_by_factor/index.md#negative-affect) |
-| [2020](data_by_year/index.md#2020) |           |
 
