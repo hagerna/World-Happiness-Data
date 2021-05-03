@@ -49,3 +49,8 @@ Despite our inability to fully compress all of the years and factors into a sing
  [2018](data_by_year/index.md#2018) | [Positive Affect](data_by_factor/index.md#positive-affect) 
  [2019](data_by_year/index.md#2019) | [Negative Affect](data_by_factor/index.md#negative-affect) 
  [2020](data_by_year/index.md#2020) |           
+
+
+## Coming Soon:
+
+I am still interested in trying to consildate the 19 graphs into a single one and will continue to try and find a way to accomplish this. Failing to do this, I am also interested in seeing how the various factors change over time, which countries have improved the most and are there any that have gotten worse? This could possibly be done through line graphs although that would make it more difficult to compare multiple countries at the same time. Another possibility would be continuing to use choropleths and reflecting the overall change for each country from 2011 to 2020. 
