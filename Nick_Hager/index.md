@@ -39,14 +39,14 @@ Despite our inability to fully compress all of the years and factors into a sing
 
 | Sorted by Year | Sorted by Factor |
 | ----------------- | -------------------  |
-| [2011](data_by_year/index#2011) | [Life Ladder](data_by_factor/index#life-ladder) |
-| [2012](data_by_year/index#2012) | [Log GDP per capita](data_by_factor/index#log-gdp-per-capita) |
-| [2013](data_by_year/index#2013) | [Social Support](data_by_factor/index#social-support) |
-| [2014](data_by_year/index#2014) | [Healthy Life Expectancy at Birth](data_by_factor/index#healthy-life-expectancy-at-birth) |
-| [2015](data_by_year/index#2015) | [Freedom to Make Life Choices](data_by_factor/index#freedom-to-make-life-choices) |
-| [2016](data_by_year/index#2016) | [Generosity](data_by_factor/index#generosity) |
-| [2017](data_by_year/index#2017) | [Perceptions of Corruption](data_by_factor/index#perceptions-of-corruption) |
-| [2018](data_by_year/index#2018) | [Positive Affect](data_by_factor/index#positive-affect) |
-| [2019](data_by_year/index#2019) | [Negative Affect](data_by_factor/index#negative-affect) |
-| [2020](data_by_year/index#2020) |  |
+| [2011](data_by_year/index.md#2011) | [Life Ladder](data_by_factor/index.md#life-ladder) |
+| [2012](data_by_year/index.md#2012) | [Log GDP per capita](data_by_factor/index.md#log-gdp-per-capita) |
+| [2013](data_by_year/index.md#2013) | [Social Support](data_by_factor/index.md#social-support) |
+| [2014](data_by_year/index.md#2014) | [Healthy Life Expectancy at Birth](data_by_factor/index.md#healthy-life-expectancy-at-birth) |
+| [2015](data_by_year/index.md#2015) | [Freedom to Make Life Choices](data_by_factor/index.md#freedom-to-make-life-choices) |
+| [2016](data_by_year/index.md#2016) | [Generosity](data_by_factor/index.md#generosity) |
+| [2017](data_by_year/index.md#2017) | [Perceptions of Corruption](data_by_factor/index.md#perceptions-of-corruption) |
+| [2018](data_by_year/index.md#2018) | [Positive Affect](data_by_factor/index.md#positive-affect) |
+| [2019](data_by_year/index.md#2019) | [Negative Affect](data_by_factor/index.md#negative-affect) |
+| [2020](data_by_year/index.md#2020) |           |
 
