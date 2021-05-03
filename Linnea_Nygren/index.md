@@ -12,6 +12,7 @@ the world happiness ranking dataset is a bit more complicated, as some countries
 After dropping the columns with no prevalence data, here is the worldwide distribution of depression prevalence. Looking at this data, the recorded prevalence of depression seems to be lower in comparison to estimates by the [National Institute of Mental Health (NIMH)](https://www.nimh.nih.gov/health/statistics/major-depression).
 This is expected since depression often goes undiagnosed; however this is likely to cause issues as countries with less mental health support may falsely show lower levels of depression. In order to combat this issue, I dropped the columns that don't have the estimated prevalence recorded instead. This time, only data for 2015 shows up. For now, this means I will be focusing solely on data from 2015, possibly widening my scope if I find a more suitable dataset.
 
+**World Happiness Ranking Preliminary Analysis**
 {% include_relative Visualizations/ladder_extremes.html %}
 
 Denmark has the maximum ladder score recorded and has a pretty steady score that doesn't fluctuate too much. Afghanistan on the other hand, has the lowest recorded ladder score,
