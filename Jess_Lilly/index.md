@@ -19,7 +19,6 @@ I will be looking at the correlation between the Gallup World Happiness Ranking 
 I will further attempt to find data about different media styles, freedoms, and narratives globally. I am very interested to see if there is a correlation between the types of media narratives people consume about their country, and their perceived happiness.
 
 
-
 ## Part A: Can an Individual Objectively Gauge Relative Happiness?
 
 Firstly, I must address the ambiguity of the question asked to construct the Life Ladder Score: “Please imagine a ladder, with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?”
