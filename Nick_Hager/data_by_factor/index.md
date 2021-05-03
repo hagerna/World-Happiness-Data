@@ -8,7 +8,7 @@ Here you can see all the visualizations that focus on a particular factor of the
 
 ## [Log GDP per Capita](#log-gdp-per-capita)
 
-{% include_relative Visualizations/WHR-GDP_per_capita.html %}
+{% include_relative Visualizations/WHR-Log_GDP_per_capita.html %}
 
 ## [Social Support](#social-support)
 
