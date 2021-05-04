@@ -28,7 +28,7 @@ During this project I will analyze the internal relationships between each varia
 
 To begin our investigation we must first question the data itself. How do we know it is what WHR claims it to be? Because of the integrety of Gallop and the other professional sources used in WHR, and due to the scope of this analysis, we won't dig into the polling methods of each source. Instead, we will visualize the data wholistically and attempt to find areas of weakness. To begin, let's examine the number of countries included:
 
-{% include_relative Visualizations/Number of countries.html %}
+{% include_relative Visualizations/Number_of_countries.html %}
 
 As we can see in this graph, after 2005 the number of countries steadily rises to ~140 and remains there until 2020, where the number of countries drops to 95. This was almost certainly because of COVID, as the WHR notes that [the COVID pandemic has hindered the ability to collect data](https://worldhappiness.report/ed/2021/)
 
@@ -42,7 +42,7 @@ Finally, I would like to ask "how does this data look? How does it spread?" To a
 
 For the sake of space I will only include the Life Ladder violin, but please check out [this file for the rest of them!](https://github.com/hagerna/World-Happiness-Data/tree/gh-pages/Martin_Alvarez-Kuglen/violins.md)
 
-{% include_relative Visualizations/WHR_stats_Life Ladder_violin.html %}
+{% include_relative Visualizations/WHR_stats_Life_Ladder_violin.html %}
 
 Here we can see that the data mostly surround the median of 5.386, and spread out from there to the finer extremes. This indicates a healthy spread of data, as they show a clear somewhat unimodal curve as we would expect from this kind of data. Interestingly, the Log-GDP per capita data appears to show a pronounced bimodal distribution. All data analyzed seems to follow this same patter of unimodal smooth curves with mean and mode approximately matching. This smoothness and bell-like shape indicated these data are in fact taken from a large population of independent individuals.
 
