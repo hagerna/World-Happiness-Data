@@ -8,6 +8,8 @@ Team members:
 * [Martin Alvarez-Kuglen](Martin_Alvarez-Kuglen): Focused on analysis and visualization of the internal relationships if each variable examined in the research. Interested in asking the questions 'what are these variables saying about each other? How do they interact and what information can we gain by looking at these interactions?'
 * [Linnea Nygren](Linnea_Nygren): Focused on the interconnectedness between happiness and mental health, more specifically examing the similarities and differences between the World Happiness Report data and other data regarding depression collected by the World Health Organization. 
 
+* Albert Schueller, test.
+
 ## World Happiness Data:
 
 
