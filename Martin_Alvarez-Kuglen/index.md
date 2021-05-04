@@ -15,7 +15,7 @@ For my first visualization I have created a scatter plot of Life Ladder and Soci
 
 {% include_relative Visualizations/SocSupport_v_LifeLadder.html %}
 
-[Find all my visualizations here](/Martin_Alvarez-Kuglen/Visualizations/)
+[Find all my visualizations here](Visualizations)
 
 
 Initially I found this graph very interesting. It seems to reveal something that I think is not surprising -- that is, the higher the General Life Enjoyment the higher the Social Support Evaluation. Now, the immediate answer most would come to is 'well, social support must increase happiness!' While I find this a compelling explanation, I am curious if we can dig deeper. Could there be an underlying factor that may be illuminated by further analysis of the data?
