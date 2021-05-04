@@ -26,7 +26,9 @@ I will further attempt to find data about different media styles, freedoms, and 
 
 Firstly, I must address the ambiguity of the question asked to construct the Life Ladder Score: “Please imagine a ladder, with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?”
 
-The question never explicitly explains what the "the best possible life" and "the worst possible life" mean in relation to reality. Based on how the question is asked, the best and worst possible life could well exist only as dystopian or utopian figments of the imagination. However, given a ranking is constructed from the collected responses, I am assuming the Gallup World Happiness Ranking relies on respondents having the self-awareness to objectively report their own happiness relative to the rest of the world. A simple visualization of the Life Ladder scores of all of the countries in the dataset reveal that respondents are most likely not effective gauges of their own happiness. 
+The question never explicitly explains what the "the best possible life" and "the worst possible life" mean in relation to reality. Based on how the question is asked, the best and worst possible life could well exist only as dystopian or utopian figments of the imagination. However, given a ranking is constructed from the collected responses, I am assuming the Gallup World Happiness Ranking relies on respondents having the self-awareness to objectively report their own happiness relative to the rest of the world. A simple visualization of the Life Ladder scores of all of the countries in the dataset reveal that respondents are most likely not effective gauges of their own happiness.
+
+{% include_relative Visualizations/Figure2.1.html %}
 
 If people could objectively measure their happiness, I would expect a roughly symmetrical bell curve centered at 5. However, as it stands, the happiness scores for a right-skewed distribution and  the mean happiness index score with countries weighted equally is 5.47. Now, it is important to note that the above histogram does not take population size into account. If the histogram was weighted by populations size, the mean would likely be skewed even farther to the right, given of the 10 most populous countries in the world, only India has a 2020 ladder score below 5.0.
 
@@ -57,7 +59,23 @@ I suspect that as the World Happiness Index becomes more broadly publicized, the
 
 While I would expect knowledge of ladder scores to similarly affect countries that make the news for having some of the lowest happiness scores, I will _not_ be looking at the lowest scoring countries in the data set -- The countries that rank the lowest on the index show incredible levels of score volatility over time often because of resolving, new, or ongoing conflict, and political and economic instability that would introduce further significant uncontrolled variables into my investigation.
 
-3.1-3.9
+{% include_relative Visualizations/Figure3.1.html %}
+
+{% include_relative Visualizations/Figure3.2.html %}
+
+{% include_relative Visualizations/Figure3.3.html %}
+
+{% include_relative Visualizations/Figure3.4.html %}
+
+{% include_relative Visualizations/Figure3.5.html %}
+
+{% include_relative Visualizations/Figure3.6.html %}
+
+{% include_relative Visualizations/Figure3.7.html %}
+
+{% include_relative Visualizations/Figure3.8.html %}
+
+{% include_relative Visualizations/Figure3.9.html %}
 
 
 ### COMING SOON: Graph with linear regressions
