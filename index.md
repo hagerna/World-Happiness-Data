@@ -5,7 +5,7 @@
 Team members:
 * [Jess Lilly](Jess_Lilly): Focused on critical analysis of the World Happiness Report data in regard to how they collected it and the actual effectiveness of the measurements that they used. Interested in the question, 'how did the World Happiness Report collect their data and how effective are the factors they chose in actually determining happiness?'
 * [Nick Hager](Nick_Hager): Focused on the question 'what is the best way to present as much of the data as possible to the viewer?' This naturally leads to broader comparisons of all countries for both the years and unique columns in the 2021 dataset described below.
-* Martin Alvarez-Kuglen: Focused on analysis and visualization of the internal relationships if each variable examined in the research. Interested in asking the questions 'what are these variables saying about each other? How do they interact and what information can we gain by looking at these interactions?'
+* [Martin Alvarez-Kuglen](Martin_Alvarez-Kuglen): Focused on analysis and visualization of the internal relationships if each variable examined in the research. Interested in asking the questions 'what are these variables saying about each other? How do they interact and what information can we gain by looking at these interactions?'
 * [Linnea Nygren](Linnea_Nygren): Focused on the interconnectedness between happiness and mental health, more specifically examing the similarities and differences between the World Happiness Report data and other data regarding depression collected by the World Health Organization. 
 
 ## World Happiness Data:
