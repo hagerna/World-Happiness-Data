@@ -34,11 +34,11 @@
 
 ## Positive Affect ##
 
-{% include_relative Visualizations/WHR_stats_Positive affect_violin.html %}
+{% include_relative Visualizations/WHR_stats_Positive_affect_violin.html %}
 
 ## Social Support ##
 
-{% include_relative Visualizations/WHR_stats_Social support_violin.html %}
+{% include_relative Visualizations/WHR_stats_Social_support_violin.html %}
 
 ## Year ##
 
