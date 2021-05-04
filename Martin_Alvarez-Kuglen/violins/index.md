@@ -2,15 +2,15 @@
 
 ## Life Ladder ##
 
-{% include_relative Visualizations/WHR_stats_Life Ladder_violin.html %}
+{% include_relative Visualizations/WHR_stats_Life_Ladder_violin.html %}
 
 ## Country Name ##
 
-{% include_relative Visualizations/WHR_stats_Country name_violin.html %}
+{% include_relative Visualizations/WHR_stats_Country_name_violin.html %}
 
 ## Freedom to make life choices ##
 
-{% include_relative Visualizations/WHR_stats_Freedom to make life choices_violin.html %}
+{% include_relative Visualizations/WHR_stats_Freedom_to_make_life_choices_violin.html %}
 
 ## Generosity ##
 
@@ -18,19 +18,19 @@
 
 ## Healthy life expectancy at birth ##
 
-{% include_relative Visualizations/WHR_stats_Healthy life expectancy at birth_violin.html %}
+{% include_relative Visualizations/WHR_stats_Healthy_life_expectancy_at_birth_violin.html %}
 
 ## Log GDP per capita ##
 
-{% include_relative Visualizations/WHR_stats_Log GDP per capita_violin.html %}
+{% include_relative Visualizations/WHR_stats_Log_GDP_per_capita_violin.html %}
 
 ## Negative affect ##
 
-{% include_relative Visualizations/WHR_stats_Negative affect_violin.html %}
+{% include_relative Visualizations/WHR_stats_Negative_affect_violin.html %}
 
 ## Perceptions of corruption ##
 
-{% include_relative Visualizations/WHR_stats_Perceptions of corruption_violin.html %}
+{% include_relative Visualizations/WHR_stats_Perceptions_of_corruption_violin.html %}
 
 ## Positive Affect ##
 
