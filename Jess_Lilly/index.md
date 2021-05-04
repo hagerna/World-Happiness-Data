@@ -1,5 +1,7 @@
 # World Happiness Data Visualization Set (Jess Lilly)
 
+{% include_relative Visualizations/Figure1_1.html %}
+
 The Global World Happiness Ranking Gallup publishes yearly is based on a single data indicator: life ladder scores determined through something known as the Cantril Index. The Cantril Index is used to rank countries in terms of happiness. Countries are ranked in based on survey responses to a single question: “Please imagine a ladder, with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?” Countries are ranked by mean life ladder score, with the highest score denoting the happiest country globally, and the lowest score denoting the least happy country globally. I am interested in investigating the validity of the Cantril Index in determining the happiness of a country.
 
 ### Statement of Interest
@@ -25,8 +27,6 @@ I will further attempt to find data about different media styles, freedoms, and 
 Firstly, I must address the ambiguity of the question asked to construct the Life Ladder Score: “Please imagine a ladder, with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?”
 
 The question never explicitly explains what the "the best possible life" and "the worst possible life" mean in relation to reality. Based on how the question is asked, the best and worst possible life could well exist only as dystopian or utopian figments of the imagination. However, given a ranking is constructed from the collected responses, I am assuming the Gallup World Happiness Ranking relies on respondents having the self-awareness to objectively report their own happiness relative to the rest of the world. A simple visualization of the Life Ladder scores of all of the countries in the dataset reveal that respondents are most likely not effective gauges of their own happiness. 
-
-{% include_relative Visualizations/Figure1_1.html %}
 
 If people could objectively measure their happiness, I would expect a roughly symmetrical bell curve centered at 5. However, as it stands, the happiness scores for a right-skewed distribution and  the mean happiness index score with countries weighted equally is 5.47. Now, it is important to note that the above histogram does not take population size into account. If the histogram was weighted by populations size, the mean would likely be skewed even farther to the right, given of the 10 most populous countries in the world, only India has a 2020 ladder score below 5.0.
 
