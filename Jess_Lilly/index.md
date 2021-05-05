@@ -53,7 +53,7 @@ The visualization suggests there is a very weak association between the positive
 
 #### COMING SOON: World Happiness Index vs. Suicide and Depression Rates
 
-### Part B: Efficacy Longevity of the World Happiness Index
+## Part C: Efficacy Longevity of the World Happiness Index
 
 I suspect that as the World Happiness Index becomes more broadly publicized, the efficacy of the Cantril ladder as a measure of happiness, will decrease. The Cantril ladder relies on human judgement. Media and popular discourse influences human judgement. Generally, I would expect countries that score particularly low, and countries that score particularly high to experience more media coverage with more memorable results. Thus, I would imagine that over time, the variability in the happiness score of some of the highest ranked countries will decrease, as knowledge about previous scores begins to influence responses. 
 
@@ -82,5 +82,5 @@ While I would expect knowledge of ladder scores to similarly affect countries th
 
 The highest scoring countries on the Cantril Ladder, show the lowest levels of year-to-year score variability. While I cannot draw-cause-effect conclusions, I would suspect that the decrease in year-to-year variability of the top 5 and top 10 countries over time (and less significantly the top 25 over time) is in part due to an increased awareness of ranking influencing participant responses.
 
-### COMING SOON: Part C: How Happy is the US, Really?
+## COMING SOON: Part D: How Happy is the US, Really?
 
