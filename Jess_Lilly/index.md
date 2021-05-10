@@ -1,6 +1,6 @@
 # World Happiness Data Visualization Set (Jess Lilly)
 
-{% include_relative Visualizations/Figure1_1.html %}
+
 
 The Global World Happiness Ranking Gallup publishes yearly is based on a single data indicator: life ladder scores determined through something known as the Cantril Index. The Cantril Index is used to rank countries in terms of happiness. Countries are ranked in based on survey responses to a single question: “Please imagine a ladder, with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?” Countries are ranked by mean life ladder score, with the highest score denoting the happiest country globally, and the lowest score denoting the least happy country globally. I am interested in investigating the validity of the Cantril Index in determining the happiness of a country.
 
@@ -26,7 +26,9 @@ I will further attempt to find data about different media styles, freedoms, and 
 
 Firstly, I must address the ambiguity of the question asked to construct the Life Ladder Score: “Please imagine a ladder, with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?”
 
-The question never explicitly explains what the "the best possible life" and "the worst possible life" mean in relation to reality. Based on how the question is asked, the best and worst possible life could well exist only as dystopian or utopian figments of the imagination. However, given a ranking is constructed from the collected responses, I am assuming the Gallup World Happiness Ranking relies on respondents having the self-awareness to objectively report their own happiness relative to the rest of the world. A simple visualization of the Life Ladder scores of all of the countries in the dataset reveal that respondents are most likely not effective gauges of their own happiness. 
+The question never explicitly explains what the "the best possible life" and "the worst possible life" mean in relation to reality. Based on how the question is asked, the best and worst possible life could well exist only as dystopian or utopian figments of the imagination. However, given a ranking is constructed from the collected responses, I am assuming the Gallup World Happiness Ranking relies on respondents having the self-awareness to objectively report their own happiness relative to the rest of the world. A simple visualization of the Life Ladder scores of all of the countries in the dataset reveal that respondents are most likely not effective gauges of their own happiness.
+
+{% include_relative Visualizations/Figure1_1.html %}
 
 If people could objectively measure their happiness, I would expect a roughly symmetrical bell curve centered at 5. However, as it stands, the happiness scores for a right-skewed distribution and  the mean happiness index score with countries weighted equally is 5.47. Now, it is important to note that the above histogram does not take population size into account. If the histogram was weighted by populations size, the mean would likely be skewed even farther to the right, given of the 10 most populous countries in the world, only India has a 2020 ladder score below 5.0.
 
@@ -43,7 +45,7 @@ Thus, I will be exploring the correlation between the Cantril Ladder scores per 
 
 I was interested in whether there was a strong relationship between the ladder score of countries, and their respective positive and negative affects. In the same survey that the Gallup data collectors collected Cantril ladder scores, the data collectors also collected positive and negative affect scores, based on responses to questions asked about the emotions respondents experienced "yesterday". 
 
-2.1
+{% include_relative Visualizations/Figure2_1.html %}
 
 The visualization suggests there is a very weak association between the positive or negative affect experienced in a country, and the ladder score. Thus, the Cantril Ladder score is likely only weakly correlated to the experience of positive and negative emotions by participants in a given country. However, if happiness is not an emotion in the context of the Cantril ladder happiness ranking, what is the 'happiness' being measured?
 
@@ -51,18 +53,34 @@ The visualization suggests there is a very weak association between the positive
 
 #### COMING SOON: World Happiness Index vs. Suicide and Depression Rates
 
-### Part B: Efficacy Longevity of the World Happiness Index
+## Part C: Efficacy Longevity of the World Happiness Index
 
 I suspect that as the World Happiness Index becomes more broadly publicized, the efficacy of the Cantril ladder as a measure of happiness, will decrease. The Cantril ladder relies on human judgement. Media and popular discourse influences human judgement. Generally, I would expect countries that score particularly low, and countries that score particularly high to experience more media coverage with more memorable results. Thus, I would imagine that over time, the variability in the happiness score of some of the highest ranked countries will decrease, as knowledge about previous scores begins to influence responses. 
 
 While I would expect knowledge of ladder scores to similarly affect countries that make the news for having some of the lowest happiness scores, I will _not_ be looking at the lowest scoring countries in the data set -- The countries that rank the lowest on the index show incredible levels of score volatility over time often because of resolving, new, or ongoing conflict, and political and economic instability that would introduce further significant uncontrolled variables into my investigation.
 
-3.1-3.9
+{% include_relative Visualizations/Figure3_1.html %}
+
+{% include_relative Visualizations/Figure3_2.html %}
+
+{% include_relative Visualizations/Figure3_3.html %}
+
+{% include_relative Visualizations/Figure3_4.html %}
+
+{% include_relative Visualizations/Figure3_5.html %}
+
+{% include_relative Visualizations/Figure3_6.html %}
+
+{% include_relative Visualizations/Figure3_7.html %}
+
+{% include_relative Visualizations/Figure3_8.html %}
+
+{% include_relative Visualizations/Figure3_9.html %}
 
 
 ### COMING SOON: Graph with linear regressions
 
 The highest scoring countries on the Cantril Ladder, show the lowest levels of year-to-year score variability. While I cannot draw-cause-effect conclusions, I would suspect that the decrease in year-to-year variability of the top 5 and top 10 countries over time (and less significantly the top 25 over time) is in part due to an increased awareness of ranking influencing participant responses.
 
-### COMING SOON: Part C: How Happy is the US, Really?
+## COMING SOON: Part D: How Happy is the US, Really?
 
