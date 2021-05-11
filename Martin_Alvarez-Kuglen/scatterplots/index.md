@@ -33,7 +33,7 @@
 {% include_relative Visualizations/Life_Ladder_v_Mobile-cellular_subscriptions_per_100_inhabitants1.html %}
 
 
-{% include_relative Visualizations/Life_Ladder_v_Fertility_rate,_total_live_births_per_woman.html %}
+{% include_relative Visualizations/Life_Ladder_v_Fertility_rate_total_live_births_per_woman.html %}
 
 
 {% include_relative Visualizations/Life_Ladder_v_Urban_population_of_total_population.html %}
@@ -42,7 +42,7 @@
 {% include_relative Visualizations/Life_Ladder_v_Economy_Agriculture_of_GVA.html %}
 
 
-{% include_relative Visualizations/Life_Ladder_v_Fertility_rate,_total_live_births_per_woman.html %}
+{% include_relative Visualizations/Life_Ladder_v_Fertility_rate_total_live_births_per_woman.html %}
 
 
 {% include_relative Visualizations/Life_Ladder_v_Economy_Services_and_other_activity_of_GVA.html %}
