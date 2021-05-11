@@ -36,22 +36,22 @@
 {% include_relative Visualizations/Life_Ladder_v_Fertility_rate,_total_live_births_per_woman.html %}
 
 
-{% include_relative Visualizations/Life_Ladder_v_Urban_population__of_total_population.html %}
+{% include_relative Visualizations/Life_Ladder_v_Urban_population_of_total_population.html %}
 
 
-{% include_relative Visualizations/Life_Ladder_v_Economy_Agriculture__of_GVA.html %}
+{% include_relative Visualizations/Life_Ladder_v_Economy_Agriculture_of_GVA.html %}
 
 
 {% include_relative Visualizations/Life_Ladder_v_Fertility_rate,_total_live_births_per_woman.html %}
 
 
-{% include_relative Visualizations/Life_Ladder_v_Economy_Services_and_other_activity__of_GVA.html %}
+{% include_relative Visualizations/Life_Ladder_v_Economy_Services_and_other_activity_of_GVA.html %}
 
 
-{% include_relative Visualizations/Life_Ladder_v_Employment_Agriculture__of_employed.html %}
+{% include_relative Visualizations/Life_Ladder_v_Employment_Agriculture_of_employed.html %}
 
 
-{% include_relative Visualizations/Life_Ladder_v_Employment_Services__of_employed.html %}
+{% include_relative Visualizations/Life_Ladder_v_Employment_Services_of_employed.html %}
 
 
 {% include_relative Visualizations/Life_Ladder_v_GDP_per_capita_current_US.html %}
