@@ -82,15 +82,15 @@ I found this very interesting, as I couldn't immediately think of any explanatio
 
 To drive this point home further, I created scatter plots to interrogate the data fully. These were generated via a for loop which automated the process of generating plotly express scatterplots. If you would like to see all of them, [please find them all here.](scatterplots) As an example, let's investigate the strongest correlation:
 
-{% include_relative scatterplots/Visualizations/Life_Ladder_v_Healthy_life_expectancy_at_birth.html %}
+{% include_relative Visualizations/Life_Ladder_v_Healthy_life_expectancy_at_birth.html %}
 
 This is a great example of a positive correlation. You see the data consistently has a positive trendline, but is scattered evenly around it. Interestingly, one of the correlations appears to have smaller lines that are emergent when graphed in this way. See the first graph below:
 
-{% include_relative scatterplots/Visualizations/Log_GDP_per_capita_v_Social_support.html %}
+{% include_relative Visualizations/Log_GDP_per_capita_v_Social_support.html %}
 
 Notice the small lines connecting the dots -- they aren't uniformly scattered around the line. That indicates that there may be some more complex relationship at play. Compare this to the graph below, which has the same variable on the X axis:
 
-{% include_relative scatterplots/Visualizations/Log_GDP_per_capita_v_Healthy_life_expectancy_at_birth.html %}
+{% include_relative Visualizations/Log_GDP_per_capita_v_Healthy_life_expectancy_at_birth.html %}
 
 Unfortunately for the scope of this class I won't have time to investigate this further. But we see, yet again, the importance of visualizing data and assessing it. From a mere R-value this would have gone completely unnoticed, yet here we can clearly see some complex internal relationships at play.
 
@@ -131,15 +131,15 @@ Notice the even mix of negative and positive correlations. I think this ties in 
 
 Let us again peer into these relationships by visualizing them on scatterplots, taking the strongest correlation as an example:
 
-{% include_relative scatterplots/Visualizations/Life_Ladder_v_Urban_population__of_total_population.html %}
+{% include_relative Visualizations/Life_Ladder_v_Urban_population__of_total_population.html %}
 
 This is another great example of a positive correlation. You see the data consistently has a positive trendline, but is scattered evenly around it. This indicates that the trend is real and that the data are, at this stage, looking good. Interestingly, some plots showed pretty significant outliers/discontinuity in the data. For example, look at this graph below
 
-{% include_relative scatterplots/Visualizations/Log_GDP_per_capita_v_Social_support.html %}
+{% include_relative Visualizations/Log_GDP_per_capita_v_Social_support.html %}
 
 Notice the outliers at the top right of the graph. And again in the graph below, look at the bottom left:
 
-{% include_relative scatterplots/Visualizations/Life_Ladder_v_Employment_Services__of_employed.html %}
+{% include_relative Visualizations/Life_Ladder_v_Employment_Services__of_employed.html %}
 
 Here we are seeing signs of the data being suspicious. If we wanted to be sure this data is clean, we would need to interrogate how the API was responding to these pull requests. It is often the case that APIs will fill in data or give weird errors when not programmed properly. I suspect the first outliers are due to incredibly high earning countries which just blow away the rest in the GDP. As for the bottom, I don't have a good explanation as to what the source of the outliers is.
 
