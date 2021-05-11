@@ -131,7 +131,7 @@ Notice the even mix of negative and positive correlations. I think this ties in 
 
 Let us again peer into these relationships by visualizing them on scatterplots, taking the strongest correlation as an example:
 
-{% include_relative Visualizations/Life_Ladder_v_Urban_population__of_total_population.html %}
+{% include_relative Visualizations/Life_Ladder_v_Urban_population_of_total_population.html %}
 
 This is another great example of a positive correlation. You see the data consistently has a positive trendline, but is scattered evenly around it. This indicates that the trend is real and that the data are, at this stage, looking good. Interestingly, some plots showed pretty significant outliers/discontinuity in the data. For example, look at this graph below
 
@@ -139,7 +139,7 @@ This is another great example of a positive correlation. You see the data consis
 
 Notice the outliers at the top right of the graph. And again in the graph below, look at the bottom left:
 
-{% include_relative Visualizations/Life_Ladder_v_Employment_Services__of_employed.html %}
+{% include_relative Visualizations/Life_Ladder_v_Employment_Services_of_employed.html %}
 
 Here we are seeing signs of the data being suspicious. If we wanted to be sure this data is clean, we would need to interrogate how the API was responding to these pull requests. It is often the case that APIs will fill in data or give weird errors when not programmed properly. I suspect the first outliers are due to incredibly high earning countries which just blow away the rest in the GDP. As for the bottom, I don't have a good explanation as to what the source of the outliers is.
 
