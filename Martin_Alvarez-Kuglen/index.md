@@ -52,7 +52,7 @@ To begin this journey through our dataset we interrogated the integrity of the d
 
 Our first step to understanding internal relationships will be the plotting of [Pearson correlation values](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient) on a heatmap plot. This will allow a clean way to visualize the relationships between each variable. In short, Pearson correlation values provide a standard way to assess the strength of the relationship between two variables in a dataset. To do this we will need to utilize some python coding. For my code, I utilized the pandas DataFrame method .corr to create correlation values. By iterating through each variable, treating it as a column or row in a 2D array, I was able to constuct another pandas DataFrame. This was plotted via the plotly express .imshow visualization. This created the heatmap you see below:
 
-{% include_relative Visualizations/WHR_Heatmap_table.html %}
+{% include_relative Visualizations/WHRHeatmap_table.html %}
 
 In this table, the darker the blue the greater the positive correlation, the darker the red the greater the negative correlation, and the more white/uncolored the less of any correlation. The dark blue diagonal represents the self-correlation line, where the Pearson coefficient is 1. 
 
