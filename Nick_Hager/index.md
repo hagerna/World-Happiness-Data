@@ -77,7 +77,7 @@ If you are interested in further critically investigating the data provided by t
 
 If you would like to some other cool visualizations that analyze the individual factors and get a better understanding of the internal relationships of the data collected in the WHR, be sure to check out [Martin Alvarez-Kuglen's page](../Martin_Alvarez-Kuglen).
 
-If you are curious to see how the data from the WHR interacts with data regarding mental health, i.e. depression and suicide rates, then you should check out [Linnea Nygren's page](../Linnea_Nygren)
+If you are curious to see how the data from the WHR interacts with data regarding mental health, i.e. depression and suicide rates, then you should check out [Linnea Nygren's page](../Linnea_Nygren).
 
 Or you can return to the [Home Page](../index.md) to explore more yourself.
 
