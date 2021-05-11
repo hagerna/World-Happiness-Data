@@ -65,7 +65,7 @@ This dataset contains a column that includes full country names, alongside colum
 ## Part 1: Can an Individual Objectively Gauge Relative Happiness?
 
 
-The Life Ladder Score question does not explain the “the best possible life” and “the worst possible life” in relation to reality. The best and worst possible life could well exist only as dystopian or utopian figments of participants' imaginations. However, Gallup uses reported the Life Ladder Scores to rank countries' happiness. The country with the highest mean Life Ladder Score ranks the highest in terms of happiness, whilst the country with the lowest mean reported Life Ladder Score, ranks the lowest in terms of happiness. Thus, the *Gallup World Happiness Report* happiness ranking, relies on respondents' self-awareness to objectively report their happiness relative to the rest of the world. 
+The Life Ladder Score question does not explain the “the best possible life” and “the worst possible life” in relation to reality. The best and worst possible life could well exist only as dystopian or utopian figments of participants' imaginations. However, Gallup uses Life Ladder Scores to rank countries' happiness. The country with the highest mean Life Ladder Score ranks the highest in terms of happiness, whilst the country with the lowest mean reported Life Ladder Score, ranks the lowest in terms of happiness. Thus, the *Gallup World Happiness Report* happiness ranking, relies on respondents' self-awareness to objectively report their happiness relative to the rest of the world. 
 
 
 ## Figure 1.1
