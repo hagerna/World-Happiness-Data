@@ -1,9 +1,11 @@
 # A Critical Analysis of The *Gallup World Happiness Report*
-### **Jess Lilly**
+### *Jess Lilly*
 
 
 
-The Global World Happiness Ranking Gallup publishes yearly is based on a single data indicator: Life Ladder Scores determined through something known as the [Cantril Scale](https://news.gallup.com/poll/122453/understanding-gallup-uses-cantril-scale.aspx). The Cantril Scale is used to rank countries in terms of happiness. Countries are ranked in based on survey responses to a single question: “Please imagine a ladder, with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?” Countries are ranked by mean life ladder score, with the highest score denoting the happiest country globally, and the lowest score denoting the least happy country globally. I am interested in investigating the validity of the Life Lasser Score in determining the happiness of a country. I am further interested in critically investigating the associations between measures of physical and emotional-well-being and the Life Ladder Scores that form the basis of the Gallup World Happiness Rankings.
+
+
+The World Happiness Ranking Gallup publishes yearly is based on a single data indicator: Life Ladder Scores determined through something known as the [Cantril Scale](https://news.gallup.com/poll/122453/understanding-gallup-uses-cantril-scale.aspx). The Cantril Scale is used to rank countries in terms of happiness. Countries are ranked in based on survey responses to a single question: “Please imagine a ladder, with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?” Countries are ranked by mean life ladder score, with the highest score denoting the happiest country globally, and the lowest score denoting the least happy country globally. I am interested in investigating the validity of the Life Lasser Score in determining the happiness of a country. I am further interested in critically investigating the associations between measures of physical and emotional-well-being and the Life Ladder Scores that form the basis of the Gallup World Happiness Rankings.
 
 
 ### Statement of Interest
@@ -18,7 +20,20 @@ Now let’s say the Cantril ladder has validity. As the World Happiness Index ga
 
 Maybe I’m being cynical, but I’m very skeptical of the *Gallup World Happiness Report*, and the supsequent rankings after reading up on the ranking methodology. Thus, I am interested in exploring other potential indicators of happiness (and misery) to gain a better understanding of whether the *Gallup World Happiness Report* is really measuring happiness, or just perceived happiness based on a limited number of factors.
 
+
+
+
+# Introduction
+
+
 I will begin my exploration with a brief look at the implication fo teh spread of Life Ladder Scores, by country. I will further be looking at the association between the Life Ladder Score and six hapiness indicators that are highlighted in the *Gallup World Happiness Report*: log GDP per capita, healthy life expectancy, social support, freedom to make life choices, generosity, and perceptions of corruption. I will further be draing off of two 2017 datasets with global depresison rates, and global suicide rates, to determine the association between the Life Ladder Score and emotional wellbeing. Finally, I will try to determine whether the Gallup World Happiness Report becomes increasingly less effective over time, as respondents become influenced by media coverage of their country's happiness.
+
+
+
+
+
+# Datasets
+
 
 
 
