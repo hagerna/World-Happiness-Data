@@ -4,8 +4,7 @@
 
 
 
-
-The World Happiness Ranking Gallup publishes yearly is based on a single data indicator: Life Ladder Scores determined through something known as the [Cantril Scale](https://news.gallup.com/poll/122453/understanding-gallup-uses-cantril-scale.aspx). The Cantril Scale is used to rank countries in terms of happiness. Countries are ranked in based on survey responses to a single question: “Please imagine a ladder, with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?” Countries are ranked by mean life ladder score, with the highest score denoting the happiest country globally, and the lowest score denoting the least happy country globally. I am interested in investigating the validity of the Life Lasser Score in determining the happiness of a country. I am further interested in critically investigating the associations between measures of physical and emotional-well-being and the Life Ladder Scores that form the basis of the Gallup World Happiness Rankings.
+Every year a country makes headlines for being the "[happiest country in the world](https://www.bbc.com/news/world-europe-56457295)." However, articles about *why* certain countries counsistently occupy the top spots are few and few and far between. The World Happiness Ranking, included in the yearly *[Gallup World Happiness Report](https://worldhappiness.report/ed/2021/),* is based on a single data indicator: Life Ladder Scores determined through something known as the [Cantril Scale](https://news.gallup.com/poll/122453/understanding-gallup-uses-cantril-scale.aspx). The Cantril Scale is used to rank countries in terms of happiness. Countries are ranked in based on survey responses to a single question: “Please imagine a ladder, with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?” Countries are ranked by mean life ladder score, with the highest score denoting the happiest country globally, and the lowest score denoting the least happy country globally. I am interested in investigating the validity of the Life Ladder Score in determining the happiness of a country. I am further interested in critically investigating the associations between measures of physical and emotional-well-being and the Life Ladder Scores that form the basis of the Gallup World Happiness Rankings.
 
 
 ### Statement of Interest
@@ -16,7 +15,7 @@ As I grew older I was exposed to a German perspective on American life — the r
 
 Now, I don’t say this to imply that Germany is perfect or that the United States is inherently a bad country. A simple glance in a history book will reveal that Germany has a host of its own problems, many of which have had long-lasting social and cultural consequences that continue to negatively affect the country; and in my 18 months in the States I have had plenty of experiences that have made me glad that I did not, in fact, set my American passport on fire; however, my  empirical observation of the dichotomy between how Americans perceive the United States, and how the rest of the world sees the United States makes me question the validity of the Cantril ladder as a measure of happiness. How are we supposed to objectively compare our lives to the lives of the rest of the world? Does thinking we are better off than the rest of the world really mean we are happier, or so we simply _think_ we are comparatively less miserable? Most of us learn about the rest of the world through the knowledge we glean from sensationalized news stories, fictional and reality TV, and, if we’re lucky, limited travel experience to highly specific tourist locations that likely capitalize on the glorification of other cultures as a more primitive “other” than our own to make us feel better about our own position in life. Thus, I would argue that most people are neither well-informed nor objective in gauging their happiness in relation to people in other countries.
 
-Now let’s say the Cantril ladder has validity. As the World Happiness Index gains popularity and media coverage, can the Cantril ladder _continue_ to effectively measure happiness? Finland has received the top spot in the Happiness Ranking for the last 4 years running. While I don’t speak Finnish or frequent Finnish news cites, if I could hazard a guess I would say that Finland’s status as the happiest country in the world probably made local news. Let’s say you live in Finland. You’ve read articles and seen news stories about Finland’s status as the happiest country in the world. You receive phone call from Gallup World Poll data collectors asking you to place your life position relative to the rest of the world on a ladder. Wouldn’t you be inclined to place yourself high on the ladder? Sure, you may be miserable, but misery is relative, so what’s to say the rest rest of the world isn’t just more miserable? After all, data says you live in the happiest country in the world.
+Now let’s say the Cantril ladder has validity. As the World Happiness Index gains popularity and media coverage, can the Cantril ladder _continue_ to effectively measure happiness? Finland has received the top spot in the Happiness Ranking for the last 4 years running. While I don’t speak Finnish or frequent Finnish news cites, if I could hazard a guess I would say that Finland’s status as the happiest country in the world probably made local news. Let’s say you live in Finland. You’ve read articles and seen news stories about Finland’s status as the happiest country in the world. You receive phone call from Gallup World Poll data collectors asking you to place your life position relative to the rest of the world on a ladder. Wouldn’t you be inclined to place yourself high on the ladder? Sure, you may be miserable, but misery is relative, so what’s to say the rest of the world isn’t just more miserable? After all, data says you live in the happiest country in the world.
 
 Maybe I’m being cynical, but I’m very skeptical of the *Gallup World Happiness Report*, and the supsequent rankings after reading up on the ranking methodology. Thus, I am interested in exploring other potential indicators of happiness (and misery) to gain a better understanding of whether the *Gallup World Happiness Report* is really measuring happiness, or just perceived happiness based on a limited number of factors.
 
@@ -26,7 +25,8 @@ Maybe I’m being cynical, but I’m very skeptical of the *Gallup World Happine
 # Introduction
 
 
-I will begin my exploration with a brief look at the implication fo teh spread of Life Ladder Scores, by country. I will further be looking at the association between the Life Ladder Score and six hapiness indicators that are highlighted in the *Gallup World Happiness Report*: log GDP per capita, healthy life expectancy, social support, freedom to make life choices, generosity, and perceptions of corruption. I will further be draing off of two 2017 datasets with global depresison rates, and global suicide rates, to determine the association between the Life Ladder Score and emotional wellbeing. Finally, I will try to determine whether the Gallup World Happiness Report becomes increasingly less effective over time, as respondents become influenced by media coverage of their country's happiness.
+I will begin my exploration with a brief look at the implication of the spread of Life Ladder Scores, by country. I will further be looking at the association between the Life Ladder Score and six happiness indicators that are highlighted in the *Gallup World Happiness Report*: log GDP per capita, healthy life expectancy, social support, freedom to make life choices, generosity, and perceptions of corruption. I will further be drawing off of two 2017 datasets with global depression rates, and global suicide rates, to determine the association between the Life Ladder Score and emotional wellbeing. Finally, I will try to determine whether the Gallup World Happiness Report becomes increasingly less effective over time, as respondents become influenced by media coverage of their country's happiness.
+
 
 
 
@@ -34,7 +34,26 @@ I will begin my exploration with a brief look at the implication fo teh spread o
 
 # Datasets
 
+I use 5 different Datasets for my investigation:
 
+2020 World Happiness Report Dataset
+
+The 2020 World Happiness Report Dataset, contains data exclusively from the year 2019, the most recent pre-pandemic year.
+
+Longitudinal World Happiness Report Dataset
+
+The Longitudinal World Happiness Report Dataset includes data from x to y. The columns are mor elimited than the 2020 World Happiness Report Dataset, but the range of years allows for longitudinal investigation, while the inclusion of the year 2017 in this dataset allows the data to be merged with the 2017 Global Depression Rates and Suicide Rates datasets with a consistent year used for all data.
+
+2017 Global Depression Rates Dataset
+
+The 2017 Global Depression Rates Dataset includes data about the depression rate in countries around the globe, with country names in Alpha-3 ISO format.
+
+
+2017 Global Suicide Rates Dataset
+
+The 2017 Global Suicide Rates Dataset includes data about the suicide rate in countries around the globe, with country names in Alpha-3 ISO format.
+
+[Alpha-3 ISO Country Code Dataset](https://www.kaggle.com/juanumusic/countries-iso-codes)
 
 
 
@@ -64,7 +83,7 @@ Why are people overestimating their happiness? I have no idea. If the reason is 
 # Part 2: Correlates of Happiness and Unhappiness
 
 
-The "Life Ladder" question does not include the word "happiness." Happiness’ is an ambiguous term. I can’t outright validate or invalidate the "Life Ladder" score because there is no concrete measure of happiness. However, I am interested in whether there are associations between the "Life Ladder" scores of countries' and conventional western ideas of happiness. Merriam Webster defines happiness as "a) a state of well-being and contentment : JOY" and  "b) a pleasurable or satisfying experience." Notice, Merriam Webster used one subjective term, "joy," to describe another, "happiness." So, of course, I also had to look up the definition of joy: "a) the emotion evoked by well-being, success, or good fortune or by the prospect of possessing what one desires : DELIGHT" and "b) the expression or exhibition of such emotion : GAIETY." I quickly realized that if I looked up every word used to describe "happiness" I would be stuck definition-for days. 
+The "Life Ladder" question does not include the word "happiness." Happiness’ is an ambiguous term. I can’t outright validate or invalidate the "Life Ladder" score because there is no concrete measure of happiness. However, I am interested in whether there are associations between the "Life Ladder" scores of countries' and conventional western ideas of happiness. Merriam Webster defines [happiness](https://www.merriam-webster.com/dictionary/happiness) as "a) a state of well-being and contentment : JOY" and  "b) a pleasurable or satisfying experience." Notice, Merriam Webster used one subjective term, "joy," to describe another, "happiness." So, of course, I also had to look up the definition of [joy](https://www.merriam-webster.com/dictionary/joy): "a) the emotion evoked by well-being, success, or good fortune or by the prospect of possessing what one desires : DELIGHT" and "b) the expression or exhibition of such emotion : GAIETY." I quickly realized that if I looked up every word used to describe "happiness" I would be stuck definition-for days. 
 
 Nonetheless, my short definition-dive gave me a good springboard to investigate correlates of the Gallup World Happiness Ranking -- the western idea of 'happiness' includes components of well-being, contentment, pleasurable experiences, (positive) emotion, success, good-fortune, and possessing what one desires.
 
@@ -72,7 +91,7 @@ Nonetheless, my short definition-dive gave me a good springboard to investigate 
 ## Section 2A: Happiness and Positive Emotions
 
 
-The term happiness carries emotional connotations. Thus, I would expect an effective measure of world happiness to correlate strongly with the positive and negative emotional experiences or survey respondents. I therefore, visualized the association between the Life Ladder Scores of countries and the positive and negative affect scores of countries (affect: *noun* "the conscious emotion that occurs in reaction to a thought or experience"). 
+The term happiness carries emotional connotations. Thus, I would expect an effective measure of world happiness to correlate strongly with the positive and negative emotional experiences or survey respondents. I therefore, visualized the association between the Life Ladder Scores of countries and the positive and negative affect scores of countries ([affect](https://www.merriam-webster.com/dictionary/affect): *noun* "the conscious emotion that occurs in reaction to a thought or experience"). 
 
 Gallup collects positive and negative affect scores in the same survey used to collect Life Ladder Scores. The positive and negative affect scores are based on responses to questions asked about the emotions respondents experienced “yesterday.”
 
