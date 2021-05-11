@@ -7,6 +7,10 @@
 Every year a country makes headlines for being the "[happiest country in the world](https://www.bbc.com/news/world-europe-56457295)." However, articles about *why* certain countries counsistently occupy the top spots are few and few and far between. The World Happiness Ranking, included in the yearly *[Gallup World Happiness Report](https://worldhappiness.report/ed/2021/),* is based on a single data indicator: Life Ladder Scores determined through something known as the [Cantril Scale](https://news.gallup.com/poll/122453/understanding-gallup-uses-cantril-scale.aspx). The Cantril Scale is used to rank countries in terms of happiness. Countries are ranked in based on survey responses to a single question: “Please imagine a ladder, with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?” Countries are ranked by mean life ladder score, with the highest score denoting the happiest country globally, and the lowest score denoting the least happy country globally. I am interested in investigating the validity of the Life Ladder Score in determining the happiness of a country. I am further interested in critically investigating the associations between measures of physical and emotional-well-being and the Life Ladder Scores that form the basis of the Gallup World Happiness Rankings.
 
 
+\nTwo
+
+
+
 ### Statement of Interest
 
 I grew up in Germany, but my first understandings of the United States were shaped though the narrative of my American parents. I was told that the US was the "strongest country in the world, and "the freest country in the world" and that I was lucky to be an American. With so many apparent social and economic assets, the United States should fall pretty high up the happiness ladder, and indeed, the United States does. The United States is admittedly not the _pinnacle_ of happiness on Gallup’s scale, but at 18th place out of 153, the United States still fall in the top 12% of countries worldwide.
@@ -36,26 +40,27 @@ I will begin my exploration with a brief look at the implication of the spread o
 
 I use 5 different Datasets for my investigation:
 
-2020 World Happiness Report Dataset
+**[2020 World Happiness Report Dataset](https://worldhappiness.report/ed/2020/)** (see "Data for Figure 2.1 for dataset download)
 
 The 2020 World Happiness Report Dataset, contains data exclusively from the year 2019, the most recent pre-pandemic year.
 
-Longitudinal World Happiness Report Dataset
+**[Longitudinal World Happiness Report Dataset](https://worldhappiness.report/ed/2021/)** (see "Data Panel" for dataset download)
 
-The Longitudinal World Happiness Report Dataset includes data from x to y. The columns are mor elimited than the 2020 World Happiness Report Dataset, but the range of years allows for longitudinal investigation, while the inclusion of the year 2017 in this dataset allows the data to be merged with the 2017 Global Depression Rates and Suicide Rates datasets with a consistent year used for all data.
+The Longitudinal World Happiness Report Dataset includes data from 2005 to 2020. The columns are more limited than the 2020 World Happiness Report Dataset, but the range of years allows for longitudinal investigation, while the inclusion of the year 2017 in this dataset allows the data to be merged with the 2017 Global Depression Rates and Suicide Rates datasets with a consistent year used for all data.
 
-2017 Global Depression Rates Dataset
+**[2017 Global Depression Rates Dataset](https://worldpopulationreview.com/country-rankings/depression-rates-by-country)**
 
 The 2017 Global Depression Rates Dataset includes data about the depression rate in countries around the globe, with country names in Alpha-3 ISO format.
 
-
-2017 Global Suicide Rates Dataset
+**[2017 Global Suicide Rates Dataset](https://worldpopulationreview.com/country-rankings/suicide-rate-by-country)**
 
 The 2017 Global Suicide Rates Dataset includes data about the suicide rate in countries around the globe, with country names in Alpha-3 ISO format.
 
-[Alpha-3 ISO Country Code Dataset](https://www.kaggle.com/juanumusic/countries-iso-codes)
+**[Alpha-3 ISO Country Code Dataset](https://www.kaggle.com/juanumusic/countries-iso-codes)**
 
+This dataset contains a column that includes full country names, alongside columns with coded country names, including Alpha-3 ISO country codes.
 
+\*\* I made minor alteration to the original CSV file so that all of the counrty names woul merge with theLongitudinal World Happiness Report Dataset, which can be accesses [here](Datasets/Country_Codes.html)
 
 # Part 1: Can an Individual Objectively Gauge Relative Happiness?
 

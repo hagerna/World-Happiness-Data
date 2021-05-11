@@ -11,8 +11,6 @@ My initial interest in the dataset is determining how much of the data is usable
 
 The data appears to reach a roughly consistent number of countries in 2011 which makes sense as on the [World Happiness Report (WHR) website](https://worldhappiness.report/archive/), the first report was released for 2012, examining the previous year. For this reason, when comparing all the countries together, 2011 will serve as a good baseline year for which all the countries involved have data. It is also worth noting that there is a noticeable drop in the number of countries with data for the year 2020. The authors of the [World Happiness Report (2021)](https://worldhappiness.report/ed/2021/) attribute the difficulties with collecting data to the COVID-19 global pandemic and as a result of this it would be reasonable to exclude the year of 2020 from the data or choose to examine it further separately. I have chosen to include it in my visualizations as they are not entirely oriented around change over time for which the lacking data would have the greatest impact.
 
-\nTwo
-
 ## Diving Deeper: Visualizations ##
 
 One question that I am personally interested in is "what is the best way to present as much of the data as possible to the viewer in a way that is both reasonable and helpful?" Continuing to work with the data from the 2021 World Happiness Report, there is a lot of information to manage: roughly 150 different countries, a range of 15 years, and the 9 unique columns with the various factors that contribute to happiness.
