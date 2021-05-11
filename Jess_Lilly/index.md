@@ -11,7 +11,7 @@ Every year, a country makes headlines for being the "[happiest country in the wo
 
 
 
-### Statement of Interest
+## Statement of Interest
 
 I grew up in Germany, but my first understandings of the United States were shaped though the narrative of my American parents. I was told that the US was the "strongest country in the world, and "the freest country in the world" and that I was lucky to be an American. With so many apparent social and economic assets, the United States should fall pretty high up the happiness ladder, and indeed, the United States does. The United States is admittedly not the _pinnacle_ of happiness on Gallup’s scale, but at 18th place out of 153, the United States still fall in the top 12% of countries worldwide.
 
@@ -26,7 +26,7 @@ Maybe I’m being cynical, but I’m very skeptical of the *Gallup World Happine
 
 
 
-# Introduction
+## Introduction
 
 
 I will begin my exploration with a brief look at the implication of the spread of Life Ladder Scores, by country. I will further be looking at the association between the Life Ladder Score and six happiness indicators that are highlighted in the *Gallup World Happiness Report*: log GDP per capita, healthy life expectancy, social support, freedom to make life choices, generosity, and perceptions of corruption. I will further be drawing off of two 2017 datasets with global depression rates, and global suicide rates, to determine the association between the Life Ladder Score and emotional wellbeing. Finally, I will try to determine whether the Gallup World Happiness Report becomes increasingly less effective over time, as respondents become influenced by media coverage of their country's happiness.
@@ -36,7 +36,7 @@ I will begin my exploration with a brief look at the implication of the spread o
 
 
 
-# Datasets
+## Datasets
 
 I use 5 different Datasets for my investigation:
 
@@ -62,7 +62,7 @@ This dataset contains a column that includes full country names, alongside colum
 
 \*\* I made minor alteration to the original CSV file so that all of the counrty names woul merge with theLongitudinal World Happiness Report Dataset, which can be accesses [here](Datasets/Country_Codes.html)
 
-# Part 1: Can an Individual Objectively Gauge Relative Happiness?
+## Part 1: Can an Individual Objectively Gauge Relative Happiness?
 
 
 The Life Ladder Score question does not explain the “the best possible life” and “the worst possible life” in relation to reality. The best and worst possible life could well exist only as dystopian or utopian figments of participants' imaginations. However, Gallup uses reported the Life Ladder Scores to rank countries' happiness. The country with the highest mean Life Ladder Score ranks the highest in terms of happiness, whilst the country with the lowest mean reported Life Ladder Score, ranks the lowest in terms of happiness. Thus, the *Gallup World Happiness Report* happiness ranking, relies on respondents' self-awareness to objectively report their happiness relative to the rest of the world. 
@@ -85,7 +85,7 @@ Why are people overestimating their happiness? I have no idea. If the reason is 
 
 
 
-# Part 2: Correlates of Happiness and Unhappiness
+## Part 2: Correlates of Happiness and Unhappiness
 
 
 The "Life Ladder" question does not include the word "happiness." Happiness’ is an ambiguous term. I can’t outright validate or invalidate the "Life Ladder" score because there is no concrete measure of happiness. However, I am interested in whether there are associations between the "Life Ladder" scores of countries' and conventional western ideas of happiness. Merriam Webster defines [happiness](https://www.merriam-webster.com/dictionary/happiness) as "a) a state of well-being and contentment : JOY" and  "b) a pleasurable or satisfying experience." Notice, Merriam Webster used one subjective term, "joy," to describe another, "happiness." So, of course, I also had to look up the definition of [joy](https://www.merriam-webster.com/dictionary/joy): "a) the emotion evoked by well-being, success, or good fortune or by the prospect of possessing what one desires : DELIGHT" and "b) the expression or exhibition of such emotion : GAIETY." I quickly realized that if I looked up every word used to describe "happiness" I would be stuck definition-for days. 
@@ -113,7 +113,7 @@ The visualization suggests there is a very weak association between the Life Lad
 
 
 
-# Section 2B: Life Ladder Scores and Gallup Correlates of Happiness
+## Section 2B: Life Ladder Scores and Gallup Correlates of Happiness
 
 
 The *Gallup World Happiness Report* identifies six prominent correlates of happiness: log GDP per capita, healthy life expectancy, social support, freedom to make life choices, generosity, and perceptions of corruption. The 2020 World Happiness Report includes data on each correlate for countries included in the dataset. I wanted to visualize the associations between the six correlates of happiness that Gallup identified, and the Life Ladder Score of countries. Thus, I created scatterplots of the data associations, with Life Ladder Scores along the x-axis, and correlate scores along the y-axis. The correlates are each reported on a different scale, so direct numerical comparisons cannot be made. Nonetheless, the shape and spread of the points of each scatterplot provides insight into the strength and direction of associations.
@@ -187,7 +187,7 @@ There is no evident correlation between Life Ladder Scores and depression or sui
 
 
 
-# Part 3: The Longevity of the Efficacy of the World Happiness Index
+## Part 3: The Longevity of the Efficacy of the World Happiness Index
 
 
 I suspect that as the World Happiness Index becomes more broadly publicized, the efficacy of the Cantril ladder to produce a Life Ladder as a measure of happiness, will decrease. The Life Ladder Score relies on human judgement. Media and popular discourse influences human judgement. Generally, I would expect countries that score particularly low, and countries that score particularly high to experience more media coverage with more memorable results. Thus, I would imagine that over time, the variability in the happiness score of some of the highest ranked countries will decrease, as knowledge about previous scores begins to influence responses.
